@@ -1,0 +1,60 @@
+/* set global box to all 0 */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* header content */
+#header_content {
+  background-color: lightblue;
+  padding-bottom: 20px;
+  width: 100%;
+  position: fixed;
+  padding: 10px 0;
+}
+/* logo */
+
+#header_content img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* nav bar */
+.nav-item {
+  /* padding-left: 15px; */
+  /* padding-top: 15px; */
+}
+/* nav links */
+.nav-link:hover {
+  border: 3px solid white;
+  background-color: tomato;
+}
+
+/* page content */
+#page_content {
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+  height: 80vh;
+}
+/* footer content */
+#footer_content {
+  background-color: lightgreen;
+  width: 100%;
+  position: fixed;
+  padding: 10px 0;
+  bottom: 0;
+  /* text-align: center; */
+}
+
+/* footer nav bar */
+#footer_content ul {
+  text-align: right;
+}

@@ -1,0 +1,21 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  border: 0;
+} */
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+header {
+  background-color: lightblue;
+}
+.container {
+  background-color: lightpink;
+  height: 70vh;
+}
+footer {
+  background-color: lightgoldenrodyellow;
+}
