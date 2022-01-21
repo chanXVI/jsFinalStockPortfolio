@@ -81,6 +81,11 @@ div.card-deck {
   /* position: fixed; */
   /* text-align: center; */
 }
+#aboutuswhale {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* footer nav bar */
 #footer_content ul {
