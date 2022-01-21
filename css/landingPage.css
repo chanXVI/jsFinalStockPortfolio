@@ -29,6 +29,9 @@ nav {
   align-self: center;
   font-size: small;
 }
+.nav-item {
+  padding: 0px 10px;
+}
 
 .social-media-nav {
   align-self: center;
