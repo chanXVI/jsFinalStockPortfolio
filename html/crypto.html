@@ -51,7 +51,27 @@
         </div>
       </div>
     </header>
-    <main id="page_content">This is the main content.</main>
+    <main id="page_content">
+      <form id="StockForm">
+        <h3>Enter Crypto Information</h3>
+        <label for="ticker">Crypto Symbol:</label><br />
+        <input type="text" name="Stock Ticker" id="ticker" /><br />
+        <label for="company_name">Cryptocurrency Name:</label><br />
+        <input type="text" name="Company Name" id="company_name" /><br />
+        <label for="buy_date">Buy Date:</label><br />
+        <input
+          type="date"
+          name="Buy Date"
+          id="buy_date"
+          value="2022-01-01"
+          max="2022-01-21"
+        /><br /><br />
+        <button id="btn">Get price</button>
+      </form>
+      <div class="main_content">
+        <div class="card-deck"></div>
+      </div>
+    </main>
     <footer id="footer_content">
       <div class="container">
         <div class="row">
@@ -98,5 +118,6 @@
         </div>
       </div>
     </footer>
+    <script src="../javascript/testPoly.js"></script>
   </body>
 </html>

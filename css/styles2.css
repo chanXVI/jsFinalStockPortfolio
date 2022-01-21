@@ -39,12 +39,41 @@ body {
   background-color: tomato;
 }
 
+/*main content*/
+img#middlePic {
+  margin: auto;
+  display: block;
+}
+
+h1#wwa {
+  text-align: center;
+  color: rgb(126, 207, 235);
+}
+
 /* page content */
 #page_content {
   padding-top: 40px;
   background-color: #b8c6db;
   background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
 }
+/* page content about us*/
+#page_contentAU {
+  padding-top: 40px;
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+  text-align: center;
+  font-size: 28px;
+}
+
+div.accordion-body {
+  background-color: lightgrey;
+  font-size: 20px;
+}
+
+div.card-deck {
+  background-color: darkgray;
+}
+
 /* footer content */
 #footer_content {
   background-color: lightgreen;
